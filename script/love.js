@@ -36,13 +36,6 @@ function init() {
   ctx.fillStyle = "rgba(0,0,0,1)";
   ctx.fillRect(0, 0, width, height);
 
-  function drawText() {
-    ctx.font = "60px Arial";
-    ctx.fillStyle = "lightblue";
-    ctx.textAlign = "center";
-    ctx.fillText("I love you sayang", width / 2, height / 2.2 + 400);
-  }
-
   function heartPosition(rad) {
     return [
       Math.pow(Math.sin(rad), 3),
