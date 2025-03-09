@@ -40,6 +40,7 @@ function init() {
     ctx.font = "60px Arial";
     ctx.fillStyle = "lightblue";
     ctx.textAlign = "center";
+    ctx.fillText("Happy Birthday", width / 2, height / 2.2 + 400);
   }
 
   function heartPosition(rad) {
